@@ -11,9 +11,13 @@ html {
 
 body {
   font-family: var(--FuentePrincipal);
-  margin-top: 0 !important;
+  
   background-color: black;
 
+}
+
+h5 {
+  font-weight: 900;
 }
 
 a {
@@ -112,7 +116,7 @@ header .navbar-scrolled {
 }
 
 .carousel-caption h3 {
-  font-weight: 300;
+
   text-transform: uppercase;
   font-size: 25px;
 
@@ -123,7 +127,7 @@ header .navbar-scrolled {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 25px;
-  font-weight: 700;
+
 
 }
 
@@ -136,36 +140,23 @@ header .navbar-scrolled {
   margin-top: 30px;
   text-wrap: balance;
   line-height: normal;
-  
+
 }
 
 h5 span {
   color: var(--colorazul);
   font-size: 64px;
 }
+/*Seccion Club0*/
 
 .cuadrado-con-estilo {
   position: relative;
   overflow: hidden;
 }
 
-.cuadrado-con-estilo img {
-  object-fit: cover;
-  object-position: center center;
-  filter: brightness(100%) contrast(100%);
-  transition: transform 0.3s ease;
-  /* Agrega una transición a la propiedad transform */
-}
-
-.cuadrado-con-estilo:hover img {
-  transform: scale(1.2);
-  /* Aplica un zoom del 20% al pasar el ratón */
-}
 
 
 
-
-/*Seccion Club0*/
 
 /* Seccion Sevicios*/
 .page-section {
@@ -195,7 +186,8 @@ hr.divider {
 /* Estilos para pantallas grandes (mayor a 1200px) */
 @media (min-width: 1200px) {
 
-  .carousel-control-prev-icon, .carousel-control-next-icon {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
     margin-top: 80px;
   }
 
@@ -203,45 +195,46 @@ hr.divider {
   .carousel-item {
     height: 95vh;
     min-height: 300px;
-  
+
   }
-  
+
   .carousel-caption {
     bottom: 320px;
     z-index: 2;
-  
+
   }
-  
+
   .carousel-caption h3 {
-    font-weight: 250;
     
+
     font-size: 25px;
-  
+
   }
-  
+
   .carousel-caption h5 {
     font-size: 45px;
-    
+
     letter-spacing: 0.5px;
     margin-top: 25px;
-    font-weight: 700;
-  
+
+
   }
-  
+
   h5 span {
     color: var(--colorazul);
     font-size: 54px;
   }
+
   .carousel-caption p {
     width: 100%;
     margin: auto;
-   
+
     font-size: 20px;
     line-height: 1.9%;
     margin-top: 30px;
     text-wrap: balance;
     line-height: normal;
-    
+
   }
 
 }
@@ -254,7 +247,8 @@ hr.divider {
     transition: all .3s ease-out;
   }
 
-  .carousel-control-prev-icon, .carousel-control-next-icon {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
     margin-top: 80px;
   }
 
@@ -262,47 +256,48 @@ hr.divider {
   .carousel-item {
     height: 85vh;
     min-height: 300px;
-  
+
   }
-  
+
   .carousel-caption {
     bottom: 400px;
     z-index: 2;
-  
+
   }
-  
+
   .carousel-caption h3 {
-    font-weight: 250;
-   
+    
+
     font-size: 25px;
-  
+
   }
-  
+
   .carousel-caption h5 {
     font-size: 45px;
-   
+
     letter-spacing: 0.5px;
     margin-top: 25px;
-    font-weight: 700;
-  
+    
+
   }
-  
+
   h5 span {
     color: var(--colorazul);
     font-size: 54px;
   }
+
   .carousel-caption p {
     width: 100%;
     margin: auto;
-    
+
     font-size: 20px;
     line-height: 1.9%;
     margin-top: 30px;
     text-wrap: balance;
     line-height: normal;
-    
+
   }
-  
+
 }
 
 /* Estilos para pantallas pequeñas (entre 768px y 991px) */
@@ -424,7 +419,7 @@ hr.divider {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
     transition: height 0.3s ease;
   }
 
@@ -459,7 +454,7 @@ hr.divider {
   .carousel-item {
     height: 78vh;
     min-height: 300px;
-  
+
   }
 
   .carousel-caption {
@@ -471,40 +466,43 @@ hr.divider {
     flex-direction: column;
 
   }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
     margin-top: 80px;
   }
 
   .carousel-caption h3 {
-    font-weight: 250px;
-  
+   
+
     font-size: 25px;
-  
+
   }
-  
+
   .carousel-caption h5 {
     font-size: 45px;
-    
+
     letter-spacing: 0.5px;
     margin-top: 25px;
-    font-weight: 700;
-  
+    
+
   }
-  
+
   h5 span {
     color: var(--colorazul);
     font-size: 54px;
   }
+
   .carousel-caption p {
     width: 100%;
     margin: auto;
-    
+
     font-size: 20px;
     line-height: 1.9%;
     margin-top: 30px;
     text-wrap: balance;
     line-height: normal;
-    
+
   }
 
   /*contacto*/
@@ -512,13 +510,14 @@ hr.divider {
   .contact-form {
     margin-bottom: 30px;
   }
+
   .map-area {
     width: 100%;
-    height:400px;
-    
+    height: 400px;
+
   }
 
- 
+
 }
 
 /* Estilos para tabletas (entre 576px y 767px) */
@@ -558,115 +557,6 @@ hr.divider {
 
   }
 
-
-
-  /* Añade al final de tu archivo CSS */
-  .hamburger-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    z-index: 1100;
-    /* Asegúrate de que tenga un z-index superior al menú colapsado */
-  }
-
-  .hamburger {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    z-index: 1100;
-  }
-
-  .checkbox {
-    position: absolute;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-  }
-
-  .line {
-    transition: 0.5s;
-    stroke-width: 4px;
-    stroke: var(--colorRojo);
-    /* Color de la línea cuando está cerrado */
-  }
-
-  .lineTop {
-    stroke-dasharray: 40 40;
-    stroke-dashoffset: 25;
-  }
-
-  .lineBottom {
-    stroke-dasharray: 40 40;
-    stroke-dashoffset: 60;
-  }
-
-  .lineMid {
-    stroke-dasharray: 40 40;
-  }
-
-  .checkbox:checked+svg .line {
-    stroke: rgb(255, 255, 255);
-    /* Color de la línea cuando está abierto */
-  }
-
-  .checkbox:checked+svg .lineTop {
-    stroke-dashoffset: 0;
-    transform-origin: left;
-    transform: rotateZ(45deg) translate(-7px, -5px);
-  }
-
-  .checkbox:checked+svg .lineMid {
-    stroke-dashoffset: 40;
-  }
-
-  .checkbox:checked+svg .lineBottom {
-    stroke-dashoffset: 0;
-    transform-origin: left;
-    transform: rotateZ(-45deg) translate(-5px, 5px);
-  }
-
-  /* Añadir a tu archivo de estilos CSS */
-
-  /* Estilo para el menú colapsado */
-  .navbar-collapse-custom {
-    background-color: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: height 0.3s ease;
-  }
-
-  /* Estilo para los enlaces en el menú colapsado */
-  .navbar-collapse-custom .navbar-nav .nav-link {
-    color: white;
-    margin: 10px 0;
-  }
-
-  /* Estilo para el botón en el menú colapsado */
-  .navbar-collapse-custom .navbar-nav .animated-button {
-    margin-top: 20px;
-  }
-
-  /* Estilo para el ícono del botón en el menú colapsado */
-  .navbar-collapse-custom .navbar-toggler-icon {
-    background-color: white;
-  }
-
-  /* Ajustes adicionales para centrar el contenido */
-  .navbar-custom.collapsed .navbar-collapse-custom {
-    display: none;
-  }
-
-  /* ... Otros estilos existentes ... */
-
   .nav-item {
     border-bottom: 1px solid var(--colorRojo);
 
@@ -675,7 +565,7 @@ hr.divider {
   .carousel-item {
     height: 65vh;
     min-height: 300px;
-  
+
   }
 
   .carousel-caption {
@@ -687,40 +577,42 @@ hr.divider {
     flex-direction: column;
 
   }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
     margin-top: 140px;
   }
 
   .carousel-caption h3 {
-    font-weight: 250px;
+    
     text-transform: uppercase;
     font-size: 22px;
-  
+
   }
-  
+
   .carousel-caption h5 {
     font-size: 38px;
-    
+
     letter-spacing: 0.5px;
     margin-top: 25px;
-    font-weight: 700;
-  
+    
+
   }
-  
+
   h5 span {
     color: var(--colorazul);
     font-size: 46px;
   }
+
   .carousel-caption p {
     width: 100%;
     margin: auto;
-    
     font-size: 15px;
     line-height: 1.9%;
     margin-top: 30px;
     text-wrap: balance;
     line-height: normal;
-    
+
   }
 
   /*contacto*/
@@ -728,9 +620,10 @@ hr.divider {
   .contact-form {
     margin-bottom: 30px;
   }
+
   .map-area {
     width: 100%;
-    height:400px; 
+    height: 400px;
   }
 
 }
@@ -852,7 +745,7 @@ hr.divider {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     transition: height 0.3s ease;
   }
 
@@ -887,7 +780,7 @@ hr.divider {
   .carousel-item {
     height: 58vh;
     min-height: 300px;
-  
+
   }
 
   .carousel-caption {
@@ -899,41 +792,44 @@ hr.divider {
     flex-direction: column;
 
   }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
     margin-top: 130px;
   }
 
   .carousel-caption h3 {
-    font-weight: 300;
+   
     text-transform: uppercase;
     font-size: 12px;
-  
+
   }
-  
+
   .carousel-caption h5 {
     font-size: 30px;
 
     letter-spacing: 0.5px;
     margin-top: 15px;
-    font-weight: 700;
-  
+    
+
   }
-  
+
   h5 span {
     color: var(--colorazul);
     font-size: 35px;
-    
+
   }
+
   .carousel-caption p {
     width: 100%;
     margin: auto;
-    
-    font-size: 8px;
+
+    font-size: 12px;
     line-height: 1.9%;
     margin-top: 30px;
     text-wrap: balance;
     line-height: normal;
-    
+
   }
 
   /*contacto*/
@@ -941,19 +837,83 @@ hr.divider {
   .contact-form {
     margin-bottom: 30px;
   }
+
   .map-area {
     width: 100%;
-    height:400px;
-    
+    height: 400px;
+
+  }
+}
+@media (max-width:395px) {
+  .carousel-item {
+    height: 58vh;
+    min-height: 300px;
+
   }
 
-  
+  .carousel-caption {
+    bottom: 45px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    margin-top: 130px;
+  }
+
+  .carousel-caption h3 {
+   
+
+    font-size: 15px;
+
+  }
+
+  .carousel-caption h5 {
+    font-size: 25px;
+
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+   
+
+  }
+
+  h5 span {
+    color: var(--colorazul);
+    font-size: 28px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    line-height: 1.9%;
+    margin-top: 30px;
+    text-wrap: balance;
+    line-height: normal;
+
+  }
+}
+
+@media (max-width:280px) {
+  .carousel-caption {
+    bottom: 25px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
 }
 
 
 
-
+/*Portfolio*/
 #portfolio .container-fluid,
 #portfolio .container-sm,
 #portfolio .container-md,
@@ -991,7 +951,7 @@ hr.divider {
   opacity: 0;
   color: #fff;
   /* background: rgba(205, 13, 13, 0.9); */
-  background:rgba(38, 38, 38, 0.7);
+  background: rgba(38, 38, 38, 0.7);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -1006,7 +966,7 @@ hr.divider {
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
-  
+
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name,
@@ -1016,7 +976,7 @@ hr.divider {
 #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name,
 #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
-  
+
 }
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
@@ -1029,16 +989,14 @@ hr.divider {
 }
 
 /*Contacto*/
-
-
 .contact-form {
   background-color: rgb(79, 74, 74);
   box-shadow: rgba(0, 0, 0, 0, 0.35) 0 5px 15px;
   padding: 40px 30px;
   border-radius: 1%;
-  
-  
-  }
+
+
+}
 
 
 .contact-form .btn {
@@ -1049,7 +1007,8 @@ hr.divider {
   padding: 10px 50px;
   letter-spacing: 2px;
 }
-.contact-form .btn:hover{
+
+.contact-form .btn:hover {
   background: var(--colorRojo);
   border: 1px solid black;
 
@@ -1057,13 +1016,14 @@ hr.divider {
 }
 
 .map-area {
- 
+
   height: 608px;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0, 0.35) 0 5px 15px;
-  
+
 
 }
+
 .map-area iframe {
   width: 100%;
   height: 100%;
@@ -1072,40 +1032,46 @@ hr.divider {
 
 /* FOOTER */
 /*:::::Pie de Pagina*/
-.pie-pagina{
+.pie-pagina {
   width: 100%;
   background-color: #0a141d;
-  
+
 }
-.pie-pagina .grupo-1{
+
+.pie-pagina .grupo-1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap:50px;
+  grid-gap: 50px;
   padding: 45px 0px;
 }
-.pie-pagina .grupo-1 .box figure{
+
+.pie-pagina .grupo-1 .box figure {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.pie-pagina .grupo-1 .box figure img{
+
+.pie-pagina .grupo-1 .box figure img {
   width: 250px;
 }
-.pie-pagina .grupo-1 .box h2{
+
+.pie-pagina .grupo-1 .box h2 {
   color: #fff;
   margin-bottom: 25px;
   font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p{
+
+.pie-pagina .grupo-1 .box p {
   color: #efefef;
   margin-bottom: 10px;
 }
-.pie-pagina .grupo-1 .red-social a{
+
+.pie-pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -1117,95 +1083,79 @@ hr.divider {
   text-align: center;
   transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover{
+
+.pie-pagina .grupo-1 .red-social a:hover {
   color: var(--colorRojo);
 }
-.pie-pagina .grupo-2{
+
+.pie-pagina .grupo-2 {
   background-color: #0a1a2a;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
 }
-.pie-pagina .grupo-2 small{
+
+.pie-pagina .grupo-2 small {
   font-size: 15px;
 }
-@media screen and (max-width:800px){
-  .pie-pagina .grupo-1{
-      width: 90%;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap:30px;
-      padding: 35px 0px;
+
+@media screen and (max-width:800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
   }
 }
 
-@media (max-width:395px) {
-  .carousel-item {
-    height: 58vh;
-    min-height: 300px;
-  
-  }
 
-  .carousel-caption {
-    bottom: 45px;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100000;
+}
+.br {
+  border-radius: 100%;
+  height: 230px;
+  width: 230px;
+}
 
-  }
-  .carousel-control-prev-icon, .carousel-control-next-icon {
-    margin-top: 130px;
-  }
 
-  .carousel-caption h3 {
-    font-weight: 300;
-    
-    font-size: 15px;
-  
+/* .spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.spinner {
+  background-color: #3498db; Color de fondo de la pelota 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: bounce 1s infinite alternate;
+}
+*/
+
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
   }
-  
-  .carousel-caption h5 {
-    font-size: 25px;
-    
-    letter-spacing: 0.5px;
-    margin-top: 20px;
-    font-weight: 700;
-  
-  }
-  
-  h5 span {
-    color: var(--colorazul);
-    font-size: 28px;
-  }
-  .carousel-caption p {
-    width: 100%;
-    margin: auto;
-    font-size: 10px;
-    line-height: 1.9%;
-    margin-top: 30px;
-    text-wrap: balance;
-    line-height: normal;
-    
+  50% {
+      transform: translateY(-20px); /* Ajusta según sea necesario para el efecto deseado */
   }
 } 
-
-@media (max-width:280px) {
-
-  
-
-  .carousel-caption {
-    bottom: 25px;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-  }
-
-
-}
-
-
-/* Section bar
